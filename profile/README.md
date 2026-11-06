@@ -1,18 +1,19 @@
 # Prometheor
 
-Prometheor builds software that gives people a clear, secure connection to their personal AI agents.
+Prometheor takes tasks from your AI chat apps and hands them to the app that does the work best, like Codex, Claude Code or Cursor on your Mac. Each task runs visibly in the real app, on the AI plans you already pay for, and the checked result comes back to your chat.
 
-## Atlaas
+## How it works
 
-Atlaas is an iOS and web interface for bringing your own Hermes, OpenClaw, or custom agent into one consistent conversation and approval experience.
+- **Connector:** add `https://app.prometheor.com/mcp` to your AI chat app, for example ChatGPT or Claude.
+- **Prometheor App:** runs on your Mac and starts each task in the app that fits.
+- **Result:** Prometheor brings the checked result back into the chat where you asked.
 
-Our product principles:
+## Principles
 
-- **Your agent stays your agent.** Atlaas is the communication and control plane, not the agent runtime.
-- **Approvals are agent-specific.** Every action is bound to the correct user, agent, connector, and scope.
-- **Credentials stay close to the agent.** Personal tools and secrets do not belong in the public Atlaas cloud.
-- **Different agents remain separate.** Identities, conversations, permissions, and audit trails are never silently merged.
+- **Your apps, your plans.** Tasks run in the apps you already use, with your own subscriptions.
+- **Visible work.** You can watch every task in the real app and take it over at any time.
+- **Your permissions.** Each app keeps the permissions you set in it.
 
-Atlaas is currently in development.
+Prometheor is available for Mac.
 
 [prometheor.com](https://prometheor.com) · [info@prometheor.com](mailto:info@prometheor.com)
